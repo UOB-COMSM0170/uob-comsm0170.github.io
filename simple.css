@@ -76,30 +76,17 @@ body:not(.assessment-page) #wrap {
 
 body:not(.assessment-page) #wrap > a {
   display:inline-block;
-  margin:2px 3px 2px 0;
-  padding:7px 11px;
-  border:1px solid #d9e4dd;
-  border-radius:999px;
-  background:#fff;
-  color:#315b47;
+  padding:3px 2px;
+  color:#8f3636;
   font-size:14px;
   letter-spacing:.01em;
   text-decoration:none;
-  transition:background-color .15s ease, border-color .15s ease, color .15s ease;
 }
 
 body:not(.assessment-page) #wrap > a:hover,
 body:not(.assessment-page) #wrap > a:focus {
-  border-color:#8db29f;
-  background:#edf4f0;
   color:#006633;
-  text-decoration:none;
-}
-
-body:not(.assessment-page) #wrap > a:first-child {
-  border-color:#006633;
-  background:#006633;
-  color:#fff;
+  text-decoration:underline;
 }
 
 body:not(.assessment-page) h1,
@@ -112,15 +99,16 @@ body:not(.assessment-page) h3 {
 }
 
 body:not(.assessment-page) h1 {
-  margin:28px 0 10px;
-  padding:32px 34px;
-  border:1px solid #cbdcd3;
-  border-radius:14px;
-  background:linear-gradient(135deg, #e8f3ed 0%, #f8f4e9 100%);
-  box-shadow:0 8px 24px rgba(28, 66, 47, .08);
+  margin:34px 0 14px;
+  padding:0 0 9px;
+  border:0;
+  border-bottom:1px solid #d5d2ca;
+  border-radius:0;
+  background:transparent;
+  box-shadow:none;
   color:#173f2d;
-  font-size:38px;
-  letter-spacing:-.02em;
+  font-size:34px;
+  letter-spacing:normal;
 }
 
 body:not(.assessment-page) h2 {
@@ -177,6 +165,32 @@ body:not(.assessment-page) #info + hr + h2 + ul {
   color:#173f2d;
   font-size:17px;
   font-weight:600;
+}
+
+body:not(.assessment-page) .lab-work-panel {
+  max-width:82ch;
+  padding:22px 24px 10px;
+  border:1px solid #d7ded9;
+  border-radius:9px;
+  background:#fff;
+  box-shadow:0 4px 16px rgba(35, 35, 35, .05);
+}
+
+body:not(.assessment-page) .lab-work-panel p {
+  max-width:none;
+}
+
+body:not(.assessment-page) .lab-work-panel h3 {
+  margin:28px 0 12px;
+  padding-top:20px;
+  border-top:1px solid #dfe5e1;
+  color:#173f2d;
+}
+
+body:not(.assessment-page) .lab-resource-link {
+  padding:14px 16px;
+  border-left:4px solid #006633;
+  background:#edf4f0;
 }
 
 body:not(.assessment-page) table {
@@ -254,8 +268,8 @@ body:not(.assessment-page) a:focus {
 
   body:not(.assessment-page) h1 {
     margin-top:28px;
-    padding:24px 20px;
-    font-size:30px;
+    padding:0 0 9px;
+    font-size:29px;
   }
 
   body:not(.assessment-page) h2 {
@@ -273,8 +287,8 @@ body:not(.assessment-page) a:focus {
     white-space:normal;
   }
 
-  body:not(.assessment-page) #wrap > a {
-    margin-bottom:6px;
+  body:not(.assessment-page) .lab-work-panel {
+    padding:18px 18px 8px;
   }
 }
 
