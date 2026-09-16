@@ -70,8 +70,35 @@ body:not(.assessment-page) {
 body:not(.assessment-page) #wrap {
   width:1100px;
   max-width:calc(100% - 48px);
-  padding:24px 24px 72px;
+  padding:30px 24px 64px;
   background:transparent;
+}
+
+body:not(.assessment-page) .homepage-nav {
+  padding:0 0 20px;
+  margin-bottom:38px;
+  border-bottom:1px solid #d5d2ca;
+  color:#76736d;
+  font-size:14px;
+  letter-spacing:.01em;
+}
+
+body:not(.assessment-page) .homepage-nav a {
+  display:inline-block;
+  padding:3px 2px;
+  color:#8f3636;
+  text-decoration:none;
+}
+
+body:not(.assessment-page) .homepage-nav a:hover,
+body:not(.assessment-page) .homepage-nav a:focus {
+  color:#006633;
+  text-decoration:underline;
+}
+
+body:not(.assessment-page) .homepage-nav a[aria-current="page"] {
+  color:#006633;
+  font-weight:700;
 }
 
 body:not(.assessment-page) #wrap > a {
@@ -109,6 +136,10 @@ body:not(.assessment-page) h1 {
   color:#173f2d;
   font-size:34px;
   letter-spacing:normal;
+}
+
+body:not(.assessment-page) .homepage-nav + h1 {
+  margin-top:0;
 }
 
 body:not(.assessment-page) h2 {
@@ -191,6 +222,19 @@ body:not(.assessment-page) .lab-resource-link {
   padding:14px 16px;
   border-left:4px solid #006633;
   background:#edf4f0;
+}
+
+body:not(.assessment-page) .back-to-top {
+  max-width:none;
+  margin-top:52px;
+  padding:18px 0 0;
+  border:0;
+  border-top:1px solid #d5d2ca;
+  border-radius:0;
+  background:transparent;
+  box-shadow:none;
+  font-size:14px;
+  text-align:right;
 }
 
 body:not(.assessment-page) table {
@@ -289,6 +333,10 @@ body:not(.assessment-page) a:focus {
 
   body:not(.assessment-page) .lab-work-panel {
     padding:18px 18px 8px;
+  }
+
+  body:not(.assessment-page) .homepage-nav {
+    line-height:2;
   }
 }
 
